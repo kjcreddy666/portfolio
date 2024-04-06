@@ -5,7 +5,7 @@ import {FaBars} from "react-icons/fa";
 
 const Nav = styled.div`
     background-color : ${({theme})=> theme.card_light};
-    height : 80px;
+    height : 70px;
     display : flex;
     justify-content : center;
     align-item : center;
@@ -71,6 +71,7 @@ const NavItems = styled.ul`
 
 const NavLink = styled.a`
     color : ${({theme})=>theme.text_primary};
+    font-size : 1.25rem;
     font-weight : 500;
     cursor : pointer;
     text-decoration : none;
@@ -97,12 +98,13 @@ const Button = styled.a`
   border : 1.8px solid ${({theme})=>theme.primary};
   color : ${({theme})=>theme.primary};
   background-color : transparent;
+  text-decoration : none;
   border-radius : 20px;
   display : flex;
   justify-content : center;
   align-items : center;
   padding : 0 20px;
-  font-size : 1rem;
+  font-size : 1.1rem;
   font-weight : 500;
   cursor : pointer;
   height : 70%;
