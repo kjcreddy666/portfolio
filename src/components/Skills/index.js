@@ -137,7 +137,7 @@ const Skills = () => (
                                 {
                                     item.skills.map((skill) => (
                                         <SkillItem>
-                                            <SkillImg src={skill.image}/>
+                                            <SkillImg src={require(`../../images/${skill.image}`)}/>
                                             {skill.name}
                                         </SkillItem>
                                     ))

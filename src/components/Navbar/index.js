@@ -30,6 +30,9 @@ const NavContainer = styled.div`
 `;
 
 const NavLogo = styled(LinkR)`
+    color : #fff;
+    font-size : 1.5rem;
+    font-weight : 500;
     width : 80%;
     padding : 0 6px;
     display : flex;

@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 
 const Button = styled.button`
-    display: none;
     width: 100%;
     padding: 10px;
     background-color: ${({ theme }) => theme.white};
@@ -15,7 +14,7 @@ const Button = styled.button`
     cursor: pointer;
     transition: all 0.8s ease-in-out;
 `
-const Card = styled.a`
+const Card = styled.div`
     width: 330px;
     height: 490px;
     background-color: ${({ theme }) => theme.card};
@@ -32,9 +31,6 @@ const Card = styled.a`
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
         filter: brightness(1.1);
-    }
-    &:hover ${Button} {
-        display: block;
     }
 `
 
@@ -113,9 +109,12 @@ const Avatar = styled.img`
 `
 
 const ProjectCards = ({project}) => {
+    const handleButtonClick = () => {
+        window.open(project.github, "_blank");
+    }
     return (
         <Card >
-            <Image src={project.image}/>
+            <Image src={require(`../../images/${project.image}`)}/>
             <Tags>
                 {project.tags?.map((tag, index) => (
                 <Tag>{tag}</Tag>
@@ -130,7 +129,7 @@ const ProjectCards = ({project}) => {
                     <Avatar src={member.img}/>
                 ))}
             </Members>
-            {/* <Button>View Project</Button> */}
+            <Button onClick = {(project)=> {handleButtonClick()}}>View Project</Button>
         </Card>
     )
 }
