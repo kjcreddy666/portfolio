@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/portfolio/static/js/main.c0bb5955.js",
-    "static/media/spotify-logo.png": "/portfolio/static/media/spotify-logo.8d8c002ed6d9ab68c183.png",
-    "static/media/Python-logo.png": "/portfolio/static/media/Python-logo.dea924d737bb84eb9ce3.png",
-    "static/media/portfolio-logo.png": "/portfolio/static/media/portfolio-logo.a19aa165a2421efca87a.png",
-    "static/media/viswabharathi-logo.jpg": "/portfolio/static/media/viswabharathi-logo.2a7ee0a8ea324edaa59a.jpg",
-    "static/media/CSS3-logo.png": "/portfolio/static/media/CSS3-logo.b3314d1beb073984276d.png",
-    "static/media/vscode-logo.png": "/portfolio/static/media/vscode-logo.691f776a11a21a483030.png",
-    "static/media/CPP-logo.png": "/portfolio/static/media/CPP-logo.053a898d752aef72651e.png",
-    "static/media/bootstrap-logo.png": "/portfolio/static/media/bootstrap-logo.9cd429090069a189475b.png",
-    "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.062825dbceed44567e91.png",
-    "static/media/C-logo.png": "/portfolio/static/media/C-logo.bbbbbabc8c191bfb99bf.png",
-    "static/media/narayana-logo.png": "/portfolio/static/media/narayana-logo.9e0eb0532291023855e6.png",
-    "static/media/simon-logo.png": "/portfolio/static/media/simon-logo.b346c85f0080e928101c.png",
-    "static/media/cmrit-logo.png": "/portfolio/static/media/cmrit-logo.a45b7fff4123d79dff74.png",
-    "static/media/nodejs-logo.svg": "/portfolio/static/media/nodejs-logo.bd8ae586b9726f8db265.svg",
-    "static/media/java-logo.svg": "/portfolio/static/media/java-logo.a751bad6c81431ab4dd6.svg",
-    "index.html": "/portfolio/index.html",
-    "main.bf538fe7.css.map": "/portfolio/static/css/main.bf538fe7.css.map",
-    "main.c0bb5955.js.map": "/portfolio/static/js/main.c0bb5955.js.map"
+    "main.css": "/static/css/main.bf538fe7.css",
+    "main.js": "/static/js/main.cd4446fb.js",
+    "static/media/spotify-logo.png": "/static/media/spotify-logo.8d8c002ed6d9ab68c183.png",
+    "static/media/Python-logo.png": "/static/media/Python-logo.dea924d737bb84eb9ce3.png",
+    "static/media/portfolio-logo.png": "/static/media/portfolio-logo.a19aa165a2421efca87a.png",
+    "static/media/viswabharathi-logo.jpg": "/static/media/viswabharathi-logo.2a7ee0a8ea324edaa59a.jpg",
+    "static/media/CSS3-logo.png": "/static/media/CSS3-logo.b3314d1beb073984276d.png",
+    "static/media/vscode-logo.png": "/static/media/vscode-logo.691f776a11a21a483030.png",
+    "static/media/CPP-logo.png": "/static/media/CPP-logo.053a898d752aef72651e.png",
+    "static/media/bootstrap-logo.png": "/static/media/bootstrap-logo.9cd429090069a189475b.png",
+    "static/media/JavaScript-logo.png": "/static/media/JavaScript-logo.062825dbceed44567e91.png",
+    "static/media/C-logo.png": "/static/media/C-logo.bbbbbabc8c191bfb99bf.png",
+    "static/media/narayana-logo.png": "/static/media/narayana-logo.9e0eb0532291023855e6.png",
+    "static/media/simon-logo.png": "/static/media/simon-logo.b346c85f0080e928101c.png",
+    "static/media/cmrit-logo.png": "/static/media/cmrit-logo.a45b7fff4123d79dff74.png",
+    "static/media/nodejs-logo.svg": "/static/media/nodejs-logo.bd8ae586b9726f8db265.svg",
+    "static/media/java-logo.svg": "/static/media/java-logo.a751bad6c81431ab4dd6.svg",
+    "index.html": "/index.html",
+    "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
+    "main.cd4446fb.js.map": "/static/js/main.cd4446fb.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.c0bb5955.js"
+    "static/js/main.cd4446fb.js"
   ]
 }
