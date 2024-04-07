@@ -212,7 +212,7 @@ export const education = [
       school: "CMR Institute Of Technology, Hyderabad",
       date: "2021 - 2025",
       grade: "8.12 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at CMR Institute Of Technology, Hyderabad with a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at CMR Institute Of Technology, Hyderabad with a CGPA of 8.12. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering(AI&DS)",
     },
     {
@@ -240,7 +240,7 @@ export const projects = [
       id: 9,
       title: "Portfolio",
       description:
-        "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+        "Explore my sleek portfolio, built with HTML5, CSS3, JavaScript, and React.js. Discover my skills and projects through seamless design and interactivity, optimized for any device.",
       image:
         "portfolio-logo.png",
       tags: [
