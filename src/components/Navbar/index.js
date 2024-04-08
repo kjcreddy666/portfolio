@@ -156,6 +156,37 @@ const MobileLink = styled.a`
     }
 `;
 
+const MobileButtonContainer = styled.div`
+    display : flex;
+    justify-content : start;
+    align-items : center;
+    width : 80%;
+    height : 100%;
+    transition: all 0.6s ease-in-out;
+    transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
+`;
+
+const MobileButton = styled.div`
+    border : 1.8px solid ${({theme})=>theme.primary};
+    background-color : ${({theme})=>theme.primary};
+    color : ${({theme})=>theme.white};
+    text-decoration : none;
+    border-radius : 20px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    padding : 7px 22px;
+    font-size : 1.1rem;
+    font-weight : 500;
+    cursor : pointer;
+    height : 70%;
+    margin-right : 0.75rem;
+
+    @media screen and(max-width : 768px) {    
+    font-size : 0.8rem;
+    }
+`;
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false);
 
@@ -184,12 +215,18 @@ const Navbar = () => {
 
                 {
                     isOpen && 
-                        <MobileMenu isOpen={isOpen}>
-                            <MobileLink href="#about" onClick={()=>setIsOpen(!isOpen)}>About</MobileLink>
-                            <MobileLink href="#skills" onClick={()=>setIsOpen(!isOpen)}>Skills</MobileLink>
-                            <MobileLink href="#projects" onClick={()=>setIsOpen(!isOpen)}>Projects</MobileLink>
-                            <MobileLink href="#contact" onClick={()=>setIsOpen(!isOpen)}>Contact</MobileLink>
-                        </MobileMenu>
+                            <MobileMenu isOpen={isOpen}>
+                                <MobileLink href="#about" onClick={()=>setIsOpen(!isOpen)}>About</MobileLink>
+                                <MobileLink href="#skills" onClick={()=>setIsOpen(!isOpen)}>Skills</MobileLink>
+                                <MobileLink href="#projects" onClick={()=>setIsOpen(!isOpen)}>Projects</MobileLink>
+                                <MobileLink href="#education" onClick={()=>setIsOpen(!isOpen)}>Education</MobileLink>
+                                <MobileButtonContainer isOpen={isOpen}>
+                                    <MobileButton href="https://github.com/kjcreddy666" target="blank">Github</MobileButton>
+                                    <MobileButton href="https://linkedin.com/in/kjcreddy666" target="blank">LinkedIn</MobileButton>
+                                </MobileButtonContainer>
+                            </MobileMenu>
+                        
+                        
                 }
 
             </NavContainer>
