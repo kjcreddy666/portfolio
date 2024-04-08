@@ -166,7 +166,7 @@ const MobileButtonContainer = styled.div`
     transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
 `;
 
-const MobileButton = styled.div`
+const MobileButton = styled.a`
     border : 1.8px solid ${({theme})=>theme.primary};
     background-color : ${({theme})=>theme.primary};
     color : ${({theme})=>theme.white};
