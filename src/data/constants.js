@@ -1,7 +1,7 @@
 export const Bio = {
     name: "Kappeta Jaya Chandra Reddy",
     roles: [
-      "Full Stack Web Developer",
+      "Full Stack Developer",
       "Programmer",
     ],
     description: "To kickstart my career as a software developer, utilizing my strong programming skills and eager to learn from experienced professionals. My goal is to contribute effectively to projects, innovate, and grow as a versatile developer while adding value to the organization",
