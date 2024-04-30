@@ -1,5 +1,6 @@
 import './App.css';
 import {ThemeProvider} from 'styled-components';
+import { BrowserRouter } from 'react-router-dom';
 import styled from "styled-components";
 import {darkTheme} from './utils/Themes';
 
@@ -9,7 +10,7 @@ import Skills from './components/Skills'
 import Education from './components/Education';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import { BrowserRouter } from 'react-router-dom';
+
 
 const Body = styled.div `
   background-color : ${({theme})=> theme.bg};

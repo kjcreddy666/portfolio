@@ -1,3 +1,4 @@
+import './index.css';
 import React from "react"
 import styled from "styled-components";
 import {Link as LinkR} from "react-router-dom";
@@ -10,23 +11,26 @@ const Nav = styled.div`
     justify-content : center;
     align-item : center;
     font-size : 1rem;
-    position : sticky;
-    top : 0;
-    z-index : 10;
     @media screen and (max-width : 960px) {
         transition : 0.8s all ease;
     }
 `;
 
 const NavContainer = styled.div`
+    background-color : ${({theme})=> theme.card_light};
     display : flex;
     justify-content : space-between;
     align-items : center;
-    height : 60px;
+    height : 55px;
+    border-radius : 0.8rem;
     z-index : 1;
     width : 100%;
     padding : 0 24px;
     max-width : 1200px;
+    position : fixed;
+    top : 0;
+    z-index : 10;
+    transition: all 0.3s ease;
 `;
 
 const NavLogo = styled(LinkR)`
@@ -106,7 +110,7 @@ const Button = styled.a`
   display : flex;
   justify-content : center;
   align-items : center;
-  padding : 0 20px;
+  padding : 0 15px;
   font-size : 1.1rem;
   font-weight : 500;
   cursor : pointer;
@@ -129,7 +133,7 @@ const MobileMenu = styled.div`
     justify-content: center;
     gap: 16px;
     position: absolute;
-    top: 80px;
+    top: 70px;
     right: 0;
     width: 100%;
     padding: 12px 40px 24px 40px;
@@ -175,11 +179,11 @@ const MobileButton = styled.a`
     display : flex;
     justify-content : center;
     align-items : center;
-    padding : 7px 22px;
-    font-size : 1.1rem;
+    padding : 6px 20px;
+    font-size : 1rem;
     font-weight : 500;
     cursor : pointer;
-    height : 70%;
+    height : 60%;
     margin-right : 0.75rem;
 
     @media screen and(max-width : 768px) {    
@@ -189,10 +193,22 @@ const MobileButton = styled.a`
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false);
+    const [isScroll, setIsScroll] = React.useState(false);
+
+    React.useEffect(() => {
+        function handleScroll() {
+          setIsScroll(window.scrollY > 50);
+        }
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+      
 
     return (
         <Nav>
-            <NavContainer>
+            <NavContainer className={isScroll ? "scrolled" : ""}>
                 <NavLogo>
                     Jay
                 </NavLogo>
