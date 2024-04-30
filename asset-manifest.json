@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/portfolio/static/js/main.4972617d.js",
+    "main.css": "/portfolio/static/css/main.02e7db51.css",
+    "main.js": "/portfolio/static/js/main.f46defbd.js",
     "static/media/spotify-logo.png": "/portfolio/static/media/spotify-logo.8d8c002ed6d9ab68c183.png",
     "static/media/Python-logo.png": "/portfolio/static/media/Python-logo.dea924d737bb84eb9ce3.png",
     "static/media/portfolio-logo.png": "/portfolio/static/media/portfolio-logo.a19aa165a2421efca87a.png",
@@ -18,11 +18,11 @@
     "static/media/nodejs-logo.svg": "/portfolio/static/media/nodejs-logo.bd8ae586b9726f8db265.svg",
     "static/media/java-logo.svg": "/portfolio/static/media/java-logo.a751bad6c81431ab4dd6.svg",
     "index.html": "/portfolio/index.html",
-    "main.bf538fe7.css.map": "/portfolio/static/css/main.bf538fe7.css.map",
-    "main.4972617d.js.map": "/portfolio/static/js/main.4972617d.js.map"
+    "main.02e7db51.css.map": "/portfolio/static/css/main.02e7db51.css.map",
+    "main.f46defbd.js.map": "/portfolio/static/js/main.f46defbd.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf538fe7.css",
-    "static/js/main.4972617d.js"
+    "static/css/main.02e7db51.css",
+    "static/js/main.f46defbd.js"
   ]
 }
