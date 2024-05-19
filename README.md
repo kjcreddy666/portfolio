@@ -1,5 +1,8 @@
 # [Kappeta Jaya Chandra Reddy's Portfolio](https://kjcreddy666.github.io/portfolio/)
 
+![Kappeta Jaya Chandra Reddys's Portfolio-image](src/images/portfolio-logo.png)
+
+
 🚀 Welcome to my latest portfolio project! 🚀
 
 This project is a showcase of my skills and projects, developed using HTML5, CSS3, JavaScript, and powered by React.js.
