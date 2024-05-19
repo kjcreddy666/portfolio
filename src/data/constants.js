@@ -238,6 +238,24 @@ export const education = [
 export const projects = [
     {
       id: 9,
+      title: "Custom Google Search",
+      description:
+        "Developed a custom Google Search application using HTML5, CSS3, JavaScript, ReactJS, and the Google Custom Search API to provide fficient search results.",
+      image:
+        "Google-logo.png",
+      tags: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "ReactJs"
+      ],
+      category: "web app",
+      github: "https://github.com/kjcreddy666/google",
+      webapp: "https://kjcreddy666.github.io/google",
+    },
+
+    {
+      id: 9,
       title: "Portfolio",
       description:
         "Explore my sleek portfolio, built with HTML5, CSS3, JavaScript, and React.js. Discover my skills and projects through seamless design and interactivity, optimized for any device.",
