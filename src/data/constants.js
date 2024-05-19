@@ -274,6 +274,24 @@ export const projects = [
 
     {
       id: 9,
+      title: "Tic Tac Toe",
+      description:
+        "Implemented a classic Tic Tac Toe game using HTML5, CSS3, JavaScript and ReactJS.",
+      image:
+        "tictactoe-logo.png",
+      tags: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "ReactJs"
+      ],
+      category: "web app",
+      github: "https://github.com/kjcreddy666/tictactoe",
+      webapp: "https://kjcreddy666.github.io/tictactoe",
+    },
+
+    {
+      id: 9,
       title: "Simon-says",
       description:
         `"Simon Says" is an exciting web project designed to keep users hooked on a memory challenge.`,

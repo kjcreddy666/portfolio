@@ -74,7 +74,6 @@ const SocialMediaIcon = styled.a`
   transition: color 0.2s ease-in-out;
   &:hover {
     color: ${({ theme }) => theme.primary};
-    font-size : 2rem;
   }
 `;
 
