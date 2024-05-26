@@ -13,7 +13,7 @@ This project is a showcase of my skills and projects, developed using HTML5, CSS
 - HTML5
 - CSS3
 - JavaScript
-- React.js
+- ReactJS
 
 ## Getting Started:
 
